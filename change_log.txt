@@ -1,0 +1,16 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ MIGALE ERASER PROJECT    @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Document Title	: change_log.txt
+Author			: tybins99@hotmail.com
+Date			: 2009/06/07
+Revision		: 1.0 
+
+
+
+CHANGE LOG:
+--------------------
+Initial revision
+
+

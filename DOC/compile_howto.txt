@@ -1,0 +1,22 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ MIGALE ERASER PROJECT    @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Document Title	: compile_howto.txt
+Author			: tybins99@hotmail.com
+Date			: 2009/06/07
+Revision		: 1.0 
+
+
+How to compile any of the project of the Migale Eraser software ?
+----------------------------------------------------------
+
+First, all the project has been compiled using Visual Studio 6.0
+Thus it is not guaranteed that it will compile using other compiler.
+
+To open the source code, double-click on the file ~SRC/zor.dsw
+this is the first file to open with Visual Studio to browse the source 
+code and compile it.
+
+Notice that the project is compiled in release mode only
+(thus it is not guaranteed that it will compile in debug mode).

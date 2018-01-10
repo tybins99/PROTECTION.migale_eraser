@@ -1,0 +1,19 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ MIGALE ERASER PROJECT    @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Document Title	: description.txt
+Author			: tybins99@hotmail.com
+Date			: 2009/06/07
+Revision		: 1.0 
+
+
+
+1. How to install Migale Eraser on your computer ?
+----------------------------------------------------------
+The software does not need any installation.
+You just have to go to the BIN directory and double-click
+on the "migale_eraser.exe" file to execute the program.
+
+
+

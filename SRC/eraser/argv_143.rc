@@ -1,0 +1,238 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "argv_122.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "argv_122.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+argv_338         BITMAP  DISCARDABLE     "light_black_small.bmp"
+argv_339         BITMAP  DISCARDABLE     "light_green_small.bmp"
+argv_337             BITMAP  DISCARDABLE     "exocet_5.bmp"
+argv_341           BITMAP  DISCARDABLE     "bitmap2.bmp"
+argv_344              BITMAP  DISCARDABLE     "bar_status.bmp"
+argv_343            BITMAP  DISCARDABLE     "progress_status.bmp"
+argv_342             BITMAP  DISCARDABLE     "bar_options.bmp"
+argv_336              BITMAP  DISCARDABLE     "eraser_2.bmp"
+argv_333              BITMAP  DISCARDABLE     "bar_action4.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+argv_593              ICON    DISCARDABLE     "Eraser.ico"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+argv_335             BITMAP  DISCARDABLE     "migale5_4.bmp"
+argv_340           BITMAP  DISCARDABLE     "light_red_small.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+argv_578 DIALOGEX 10, 10, 186, 126
+STYLE DS_MODALFRAME | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Migale Eraser  -   V 1.3"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Erase File",argv_413,85,110,41,11
+    PUSHBUTTON      "Erase Folder",argv_414,135,110,47,11
+    CTEXT           "",argv_516,6,27,175,8
+    CONTROL         "Progress1",argv_489,"msctls_progress32",WS_BORDER,
+                    5,48,179,6
+    CONTROL         "Progress1",argv_491,"msctls_progress32",WS_BORDER,
+                    5,57,179,6
+    CONTROL         "Recursive directory erasure",argv_498,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,64,85,113,10
+    COMBOBOX        argv_517,7,85,44,47,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Entropy",argv_514,3,75,54,25
+    GROUPBOX        "",argv_514,57,75,128,25
+    GROUPBOX        "",argv_514,3,103,182,21
+    GROUPBOX        "",argv_514,81,103,51,21
+    CONTROL         176,argv_514,"Static",SS_BITMAP,2,17,181,7
+    CONTROL         177,argv_514,"Static",SS_BITMAP,2,39,181,7
+    CONTROL         178,argv_514,"Static",SS_BITMAP,3,67,181,7
+    CONTROL         179,argv_514,"Static",SS_BITMAP,2,2,181,14
+    CONTROL         180,argv_514,"Static",SS_BITMAP,3,100,181,7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+argv_594                ICON    DISCARDABLE     "Eraser.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+argv_578 DLGINIT
+BEGIN
+    argv_517, 0x403, 7, 0
+0x654d, 0x6964, 0x6d75, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+argv_577 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       argv_599
+        MENUITEM "&Open File",                  argv_600
+        MENUITEM "toto",                        argv_332
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&argv_160 ...",                  argv_598
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+argv_577 ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            argv_598,              ASCII,  ALT
+    "/",            argv_598,              ASCII,  ALT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""argv_122.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "argv_122.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    argv_602           "Migale Eraser"
+    argv_603               "Hello World!"
+    argv_577                 "ZOR"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

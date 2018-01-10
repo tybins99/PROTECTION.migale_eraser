@@ -1,0 +1,31 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@ MIGALE ERASER PROJECT    @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Document Title	: description.txt
+Author			: tybins99@hotmail.com
+Date			: 2009/06/07
+Revision		: 1.0 
+
+FOLDER NAME:  
+------------
+~/MIGALE_ERASER
+
+
+DESCRIPTION:
+-------------
+root of the project
+
+
+DETAILED DESCRIPTION:
+---------------------
+
+- description.txt (this file)
+
+- BIN: the folder containing all the exe files necessary to install and launch the
+       Migale eraser project.
+       
+- SRC: the folder containing all the source code of the Migale eraser project.
+
+- DOC: documentation of the Migale eraser project.
+

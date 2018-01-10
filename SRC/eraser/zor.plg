@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/zor.res" /d "NDEBUG" "D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\eraser\zor.rc"" 
+Creating temporary file "C:\DOCUME~1\franck\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "__WIN32_OS__" /D "__GUI_RC4__" /D "__RC4_USE_DES__" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib_plugin\data_types.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib\des_tool.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib\file_mapper.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib\general.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib_plugin\general_plugin.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib\md5.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\lib\rc4.cpp"
+"D:\franck\Eicar2009\exosteg\ERASER_2_SOURCEFORGE\MIGALE_ERASER\SRC\eraser\zor.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\franck\LOCALS~1\Temp\RSP6F.tmp" 
+Creating temporary file "C:\DOCUME~1\franck\LOCALS~1\Temp\RSP70.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Advapi32.lib Winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/migale_eraser.pdb" /machine:I386 /out:"Release/migale_eraser.exe" 
+.\Release\data_types.obj
+.\Release\des_tool.obj
+.\Release\file_mapper.obj
+.\Release\general.obj
+.\Release\general_plugin.obj
+.\Release\md5.obj
+.\Release\rc4.obj
+.\Release\zor.obj
+.\Release\zor.res
+]
+Creating command line "link.exe @C:\DOCUME~1\franck\LOCALS~1\Temp\RSP70.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+data_types.cpp
+des_tool.cpp
+file_mapper.cpp
+general.cpp
+general_plugin.cpp
+md5.cpp
+rc4.cpp
+zor.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+migale_eraser.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

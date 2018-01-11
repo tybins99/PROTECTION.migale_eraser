@@ -1,4 +1,4 @@
-### MIGALE ERASER PROJECT 
+# MIGALE ERASER PROJECT 
 
 ______
 ### Document Title	: MIGALE ERASER PROJECT
@@ -8,13 +8,13 @@ ______
 ______
 
 
-# __1. Migale Eraser Brief description__
+### __1. Migale Eraser Brief description__
 Migale Eraser is a tool permitting to erase securely any file or
 folder of your hard-drive, preventing from any undelete or recovery
 using forensic tools.
 
 
-# __2. Migale Security Suite Project__
+### __2. Migale Security Suite Project__
 Migale Eraser is a part of the "Migale Security Software Suite"
 available on SourceForge at the following URL:
 http://sourceforge.net/projects/migaleantivirus
@@ -36,30 +36,26 @@ Migale Antivirus is a win32 software containing:
   without using signature scheme (useful for honeypot).
 - a control center to launch any of these applications.  
 
-2. Developement environment
------------------------------------------
+### __2. Developement environment__
 Migale software was compiled on:
 OS: Windows XP - SP2
 Compiler: Microsoft Visual Studio 6.0
 
 
 
-2. Migale Eraser detailed description
------------------------------------------
+### __2. Migale Eraser detailed description__
 Migale Eraser has several working modes:
 - delete safely a chosen file
 - delete safely a chosen folder considering only the files of this folder.
 - delete safely all files and sub-folders of the chosen folder (recursive mode).
 
-	2.1 Random number generator initialization
-	------------------------------------------
+	### __2.1 Random number generator initialization__
 	In order to be able to erase safely the file's content, we need a strong pseudo-ramdom
 	generator. To do so, we use a modified version of RC4 and Data Encryption Standard algorithms
 	and the keys for these algorithms are generated using 16 bootlegs that are initialized using
 	the non-deterministic properties of the thread scheduling on a given operating system.
 
-	2.2 Entropy strength selection
-	------------------------------
+	### __2.2 Entropy strength selection__
 	Due to magnetic remanance, even if you overwrite the file's content with a constant value,
 	it is still possible to retrieve the original file's content to some extent using advanced
 	forensic tools.
@@ -75,8 +71,7 @@ Migale Eraser has several working modes:
 	This method uses pseudorandom data to overwrite the drive and then overwrites the drive based on the different 
 	and unique encoding algorithms.
 	
-	2.3 Erasure Cancellation
-	------------------------
+	### __2.3 Erasure Cancellation__
 	You can decide to stop the erasure procedure by clicking on the "stop" button.
 	However stopping a file erasure in the middle of the file is very dangerous because it will
 	truncate the file and thus leave important data available for forensic tools.
@@ -85,24 +80,21 @@ Migale Eraser has several working modes:
 	file currently being erased will be safely erased.
 
 
-3. Bug report
--------------
+### __3. Bug report__
 You can report any bug or problem at the following email:
 tybins99@hotmail.com
 
+____
+# MIGALE ERASER PROJECT 
+____
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@ MIGALE ERASER PROJECT    @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+## Document Title	: compile_howto.txt
+## Author			: cv.dev.cpp@gmail.com
+## Date				: 2009/06/07
+## Revision			: 1.0 
+____
 
-Document Title	: compile_howto.txt
-Author			: tybins99@hotmail.com
-Date			: 2009/06/07
-Revision		: 1.0 
-
-
-How to compile any of the project of the Migale Eraser software ?
-----------------------------------------------------------
+### __How to compile any of the project of the Migale Eraser software ?__
 
 First, all the project has been compiled using Visual Studio 6.0
 Thus it is not guaranteed that it will compile using other compiler.
@@ -115,27 +107,20 @@ Notice that the project is compiled in release mode only
 (thus it is not guaranteed that it will compile in debug mode).
 
 
+____
+# MIGALE ERASER PROJECT 
+____
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@ MIGALE ERASER PROJECT    @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-Document Title	: description.txt
-Author			: tybins99@hotmail.com
-Date			: 2009/06/07
-Revision		: 1.0 
+## Document Title	: description.txt
+## Author			: tybins99@hotmail.com
+## Date			: 2009/06/07
+## Revision		: 1.0 
+____
 
 
-
-1. How to install Migale Eraser on your computer ?
-----------------------------------------------------------
+### __1. How to install Migale Eraser on your computer ?__
 The software does not need any installation.
 You just have to go to the BIN directory and double-click
 on the "migale_eraser.exe" file to execute the program.
-
-
-
-
-
 
 

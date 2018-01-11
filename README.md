@@ -9,15 +9,13 @@
 ## ---------------------------------------
 
 
-# 1. Migale Eraser Brief description
-# ---------------------------------------
+# __1. Migale Eraser Brief description__
 Migale Eraser is a tool permitting to erase securely any file or
 folder of your hard-drive, preventing from any undelete or recovery
 using forensic tools.
 
 
-# 2. Migale Security Suite Project
-# ---------------------------------------
+# __2. Migale Security Suite Project__
 Migale Eraser is a part of the "Migale Security Software Suite"
 available on SourceForge at the following URL:
 http://sourceforge.net/projects/migaleantivirus

@@ -1,12 +1,12 @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@ MIGALE ERASER PROJECT    @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+MIGALE ERASER PROJECT 
 
 
+---------------------------------------
 Document Title	: MIGALE ANTIVIRUS PROJECT DESCRIPTION
-Author			: tybins99@hotmail.com
+Author			: cv.dev.cpp@gmail.com
 Date			: 2009/06/07
 Revision		: 1.0 
+---------------------------------------
 
 
 1. Migale Eraser Brief description

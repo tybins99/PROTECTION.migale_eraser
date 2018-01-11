@@ -1,12 +1,11 @@
 ### MIGALE ERASER PROJECT 
 
-
-## ---------------------------------------
-## Document Title	: MIGALE ERASER PROJECT
-## Author			: cv.dev.cpp@gmail.com
-## Date			: 2009/06/07
-## Revision		: 1.0 
-## ---------------------------------------
+______
+### Document Title	: MIGALE ERASER PROJECT
+### Author			: cv.dev.cpp@gmail.com
+### Date			: 2009/06/07
+### Revision		: 1.0 
+______
 
 
 # __1. Migale Eraser Brief description__

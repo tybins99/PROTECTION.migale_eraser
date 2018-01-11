@@ -5,6 +5,7 @@ ______
 ### Author			: cv.dev.cpp@gmail.com
 ### Date			: 2009/06/07
 ### Revision		: 1.0 
+##### Protection: Beemeal Source Shadow (V1.0.0)
 ______
 
 
